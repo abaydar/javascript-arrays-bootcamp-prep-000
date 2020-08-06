@@ -3,3 +3,4 @@ function addElementToBeginningOfArray(chocolateBars, element){return [element, .
 function destructivelyAddElementToBeginningOfArray(chocolateBars, element){chocolateBars.unshift(element); return chocolateBars}
 function addElementToEndOfArray(chocolateBars, element){return[...chocolateBars, element]}
 function destructivelyAddElementToEndOfArray(chocolateBars, element){chocolateBars.push(element); return chocolateBars}
+function accessElementInArray(chocolateBars, index){
