@@ -6,3 +6,5 @@ function destructivelyAddElementToEndOfArray(chocolateBars, element){chocolateBa
 function accessElementInArray(chocolateBars, index){return chocolateBars[index]}
 function destructivelyRemoveElementFromBeginningOfArray(chocolateBars){chocolateBars.shift(); return chocolateBars}
 function removeElementFromBeginningOfArray(chocolateBars){chocolateBars.slice(1); return chocolateBars}
+function destructivelyRemoveElementFromEndOfArray(chocolateBars){chocolateBars.pop(); return chocolateBars}
+function removeElementFromEndOfArray(chocolateBars){chocolateBars.slice(0,chcolateBars.length - 1); return chocolateBars}
